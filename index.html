@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<title>온라인 프로필</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        table{
+            width:70%;
+            border-collapse: collapse;
+            border:1px solid #222;
+        }
+        th,td{
+            border:1px solid #ccc;
+            padding:5px;
+            font-size: 0.8em;
+        }
+        thead{
+            background-color: #eee;;
+        }
+        a{
+            text-decoration: none;
+        }
+        #sns ul{
+            padding-left: 0; 
+        }
+        #sns ul li{
+            display: inline-block;
+            width: 80px;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container">
+        <!-- 사이드바 -->
+        <!-- ctrl + / -->
+        <aside>
+            <div id="namecard">
+                <img src="images/snowman.png" alt="">
+                <h1>Gildong Hong</h1>
+                <p>오늘은 남은 인생이 시작되는 첫째날</p>
+            </div>
+            <div id="detail">
+                <p>Daegu, Korea</p>            
+                <p>hgd@gmail.com</p>
+            </div>
+            <div id="sns">
+                <h2>SNS</h2>
+                <ul>
+                    <li><a href="https://www.facebook.com/" target="_blank">facebook</a></li>
+                    <li><a href="https://www.instagram.com/" target="_blank">instagram</a></li>
+                </ul>
+            </div>        
+        </aside> 
+        <div id="main">
+            <!-- 자기 소개 -->
+            <section>
+                <h2 class="subtitle">Who am I??</h2>
+                <p><mark>프런트엔드 및 백엔드 기술</mark>에 관심이 많습니다. <br>
+                    현재 대구대학교에서 수업을 받고 있습니다.</p>
+            </section>
+
+            <!-- 경력 -->
+            <!-- 저장:  ctrl + s -->
+            <!-- 목록으로 표현 ul: unordered list  -->
+            <section>
+                <h2 class="subtitle">Experience</h2>
+                <ul>
+                    <li>프론트엔드 개발
+                        <ul>
+                            <li>업무내용 1</li>
+                            <li>업무내용 2</li>
+                        </ul>
+                    </li>
+                    <li>웹 디자인</li>
+                    <li>백엔드 개발</li>
+                </ul>
+            </section>
+
+            <!-- 숙련도 -->
+            <section>
+                <h2 class="subtitle">Skills</h2>
+                <ul>
+                    <li>html && css</li>
+                    <li>javascript && jQuery</li>
+                </ul>
+            </section>
+
+            <!-- 학력 -->
+            <section>
+                <h2 class="subtitle">Education</h2>
+                <table>
+                    <caption>학력사항</caption>
+                    <thead>
+                        <tr>
+                            <th>출신학교</th>
+                            <th>전공</th>
+                            <th>기간</th>
+                            <th>구분</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>ㅁㅁ대학교</td>
+                            <td>컴퓨터공학</td>
+                            <td>2019.3 ~ 2023.2</td>
+                            <td>졸업</td>
+                        </tr>
+                        <tr>
+                            <td>ㅇㅇㅇ고등학교</td>
+                            <td> - </td>
+                            <td>2016.3 ~ 2019.2</td>
+                            <td>졸업</td>
+                        </tr>  
+                    </tbody>                  
+                </table>
+            </section>
+        </div>        
+    </div>
+</body>
+</html>
